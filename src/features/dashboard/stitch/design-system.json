@@ -1,0 +1,127 @@
+{
+  "name": "assets/2291e8ae296143b694c8190b058ca302",
+  "displayName": "Vitality Core",
+  "styleGuidelines": "## Brand & Style\nThe design system is engineered for a desktop health management experience that feels professional yet encouraging. It adopts a **Corporate/Modern** aesthetic inspired by One UI, prioritizing clarity, breathability, and logical information grouping. The brand personality is \"Tech-forward Vitality\"\u2014it treats personal health data with the precision of a medical instrument but presents it with the approachability of a lifestyle companion.\n\nThe interface utilizes expansive whitespace and soft depth to reduce cognitive load. Motion should be subtle and organic, guiding the eye toward data updates without distraction. The target audience is health-conscious individuals who require a centralized, reliable dashboard for longitudinal wellness tracking.\n\n## Layout & Spacing\nThe layout follows a **Fixed Grid** philosophy for the desktop dashboard to maintain the integrity of data visualizations.\n- **Grid:** 12-column system with a max-width of 1440px. \n- **Rhythm:** An 8px base unit governs all dimensions.\n- **Margins:** 40px outer margins to provide a premium, spacious feel.\n- **Desktop Strategy:** Content is organized into a sidebar navigation (280px) and a primary scrollable stage. Cards should span 3, 4, or 6 columns depending on the complexity of the visualization.\n\n## Elevation & Depth\nIn line with One UI, depth is communicated through **Tonal Layers** and extremely soft **Ambient Shadows**. \n- **Surface 0:** Background canvas (`#F4F7FA`).\n- **Surface 1:** Primary cards (`#FFFFFF`). These feature a subtle 1px border in `#E1E5EB` and a soft shadow (0px 4px 20px rgba(0,0,0,0.04)).\n- **Interactive Elevation:** On hover, cards should lift slightly using a more pronounced shadow (0px 8px 30px rgba(0,0,0,0.08)) to indicate interactivity.\n- **Overlays:** Modals and tooltips use a higher elevation with a 12% opacity backdrop blur to maintain context of the underlying data.\n\n## Components\n- **Data Cards:** The core component. Must include a `label-md` title, a `display-metrics` value, and a visualization area.\n- **Progress Rings:** Used for daily goals. Use a thick 12px track in a 10% opacity version of the metric color, with a full-saturation cap-rounded stroke for progress.\n- **Buttons:** Primary buttons are pill-shaped, using the Primary Blue. Secondary buttons are ghost-style with a 1px `#E1E5EB` border.\n- **Line Charts:** Clean, sans-serif axes. Lines should be 3px thick with a subtle gradient fill (15% opacity) beneath the stroke to give the data \"weight.\"\n- **Metric Chips:** Small, pill-shaped tags used for filtering data ranges (e.g., \"7 Days\", \"1 Month\"). Active state uses a soft tint of the Primary color with 80% opacity text.\n- **Input Fields:** Large, 56px height inputs with 12px internal padding and 12px corner radius, utilizing a subtle gray background that turns white on focus.",
+  "theme": {
+    "colorMode": "LIGHT",
+    "font": "INTER",
+    "roundness": "ROUND_EIGHT",
+    "customColor": "#3d8bff",
+    "headlineFont": "INTER",
+    "bodyFont": "INTER",
+    "labelFont": "INTER",
+    "namedColors": {
+      "background": "#f7fafd",
+      "error": "#ba1a1a",
+      "error_container": "#ffdad6",
+      "inverse_on_surface": "#eef1f4",
+      "inverse_primary": "#acc7ff",
+      "inverse_surface": "#2d3133",
+      "on_background": "#181c1e",
+      "on_error": "#ffffff",
+      "on_error_container": "#93000a",
+      "on_primary": "#ffffff",
+      "on_primary_container": "#fefcff",
+      "on_primary_fixed": "#001a40",
+      "on_primary_fixed_variant": "#004591",
+      "on_secondary": "#ffffff",
+      "on_secondary_container": "#007526",
+      "on_secondary_fixed": "#002106",
+      "on_secondary_fixed_variant": "#005319",
+      "on_surface": "#181c1e",
+      "on_surface_variant": "#414754",
+      "on_tertiary": "#ffffff",
+      "on_tertiary_container": "#fffbff",
+      "on_tertiary_fixed": "#410005",
+      "on_tertiary_fixed_variant": "#920418",
+      "outline": "#727785",
+      "outline_variant": "#c1c6d6",
+      "primary": "#0059b9",
+      "primary_container": "#0e71e4",
+      "primary_fixed": "#d7e2ff",
+      "primary_fixed_dim": "#acc7ff",
+      "secondary": "#006e24",
+      "secondary_container": "#7efd89",
+      "secondary_fixed": "#7efd89",
+      "secondary_fixed_dim": "#61df70",
+      "surface": "#f7fafd",
+      "surface_bright": "#f7fafd",
+      "surface_container": "#ebeef1",
+      "surface_container_high": "#e5e8eb",
+      "surface_container_highest": "#e0e3e6",
+      "surface_container_low": "#f1f4f7",
+      "surface_container_lowest": "#ffffff",
+      "surface_dim": "#d7dadd",
+      "surface_tint": "#005cbd",
+      "surface_variant": "#e0e3e6",
+      "tertiary": "#b1222a",
+      "tertiary_container": "#d43d40",
+      "tertiary_fixed": "#ffdad7",
+      "tertiary_fixed_dim": "#ffb3af"
+    },
+    "designMd": "---\nname: Vitality Core\ncolors:\n  surface: '#f7fafd'\n  surface-dim: '#d7dadd'\n  surface-bright: '#f7fafd'\n  surface-container-lowest: '#ffffff'\n  surface-container-low: '#f1f4f7'\n  surface-container: '#ebeef1'\n  surface-container-high: '#e5e8eb'\n  surface-container-highest: '#e0e3e6'\n  on-surface: '#181c1e'\n  on-surface-variant: '#414754'\n  inverse-surface: '#2d3133'\n  inverse-on-surface: '#eef1f4'\n  outline: '#727785'\n  outline-variant: '#c1c6d6'\n  surface-tint: '#005cbd'\n  primary: '#0059b9'\n  on-primary: '#ffffff'\n  primary-container: '#0e71e4'\n  on-primary-container: '#fefcff'\n  inverse-primary: '#acc7ff'\n  secondary: '#006e24'\n  on-secondary: '#ffffff'\n  secondary-container: '#7efd89'\n  on-secondary-container: '#007526'\n  tertiary: '#b1222a'\n  on-tertiary: '#ffffff'\n  tertiary-container: '#d43d40'\n  on-tertiary-container: '#fffbff'\n  error: '#ba1a1a'\n  on-error: '#ffffff'\n  error-container: '#ffdad6'\n  on-error-container: '#93000a'\n  primary-fixed: '#d7e2ff'\n  primary-fixed-dim: '#acc7ff'\n  on-primary-fixed: '#001a40'\n  on-primary-fixed-variant: '#004591'\n  secondary-fixed: '#7efd89'\n  secondary-fixed-dim: '#61df70'\n  on-secondary-fixed: '#002106'\n  on-secondary-fixed-variant: '#005319'\n  tertiary-fixed: '#ffdad7'\n  tertiary-fixed-dim: '#ffb3af'\n  on-tertiary-fixed: '#410005'\n  on-tertiary-fixed-variant: '#920418'\n  background: '#f7fafd'\n  on-background: '#181c1e'\n  surface-variant: '#e0e3e6'\ntypography:\n  display-metrics:\n    fontFamily: Inter\n    fontSize: 48px\n    fontWeight: '700'\n    lineHeight: 56px\n    letterSpacing: -0.02em\n  headline-lg:\n    fontFamily: Inter\n    fontSize: 32px\n    fontWeight: '600'\n    lineHeight: 40px\n    letterSpacing: -0.01em\n  headline-md:\n    fontFamily: Inter\n    fontSize: 24px\n    fontWeight: '600'\n    lineHeight: 32px\n  body-lg:\n    fontFamily: Inter\n    fontSize: 18px\n    fontWeight: '400'\n    lineHeight: 28px\n  body-md:\n    fontFamily: Inter\n    fontSize: 16px\n    fontWeight: '400'\n    lineHeight: 24px\n  label-md:\n    fontFamily: Inter\n    fontSize: 14px\n    fontWeight: '500'\n    lineHeight: 20px\n    letterSpacing: 0.01em\n  label-sm:\n    fontFamily: Inter\n    fontSize: 12px\n    fontWeight: '600'\n    lineHeight: 16px\nrounded:\n  sm: 0.25rem\n  DEFAULT: 0.5rem\n  md: 0.75rem\n  lg: 1rem\n  xl: 1.5rem\n  full: 9999px\nspacing:\n  unit: 8px\n  container-padding: 40px\n  gutter: 24px\n  card-gap: 24px\n  section-margin: 48px\n---\n\n## Brand & Style\nThe design system is engineered for a desktop health management experience that feels professional yet encouraging. It adopts a **Corporate/Modern** aesthetic inspired by One UI, prioritizing clarity, breathability, and logical information grouping. The brand personality is \"Tech-forward Vitality\"\u2014it treats personal health data with the precision of a medical instrument but presents it with the approachability of a lifestyle companion.\n\nThe interface utilizes expansive whitespace and soft depth to reduce cognitive load. Motion should be subtle and organic, guiding the eye toward data updates without distraction. The target audience is health-conscious individuals who require a centralized, reliable dashboard for longitudinal wellness tracking.\n\n## Colors\nThis design system uses a logic-based color palette where hues are mapped to specific physiological domains. This creates an immediate \"glanceable\" understanding of data categories:\n- **Primary (Exercise):** #3D8BFF \u2014 Used for active states and movement-related metrics.\n- **Success (Steps):** #2FB34A \u2014 Encouraging green used for achievement and walking data.\n- **Vitality (Heart):** #FF5C5C \u2014 Soft red used for cardiovascular metrics and alerts.\n- **Rest (Sleep):** #6C63FF \u2014 Deep purple for recovery and circadian data.\n\nBackgrounds utilize a tiered grayscale: `#F4F7FA` for the global canvas to reduce glare, and pure `#FFFFFF` for interactive cards to create clear separation.\n\n## Typography\nThe typography system relies exclusively on **Inter** to ensure maximum legibility of numerical data across varied densities. \n- **Metric Scaling:** Use the `display-metrics` role for primary data points (e.g., total steps).\n- **Hierarchy:** Maintain a strict contrast between `headline-md` for card titles and `body-md` for descriptive text.\n- **Data Labels:** Use `label-sm` with slightly increased letter spacing for axis labels in charts and secondary metadata to ensure they remain distinct from body content.\n\n## Layout & Spacing\nThe layout follows a **Fixed Grid** philosophy for the desktop dashboard to maintain the integrity of data visualizations.\n- **Grid:** 12-column system with a max-width of 1440px. \n- **Rhythm:** An 8px base unit governs all dimensions.\n- **Margins:** 40px outer margins to provide a premium, spacious feel.\n- **Desktop Strategy:** Content is organized into a sidebar navigation (280px) and a primary scrollable stage. Cards should span 3, 4, or 6 columns depending on the complexity of the visualization.\n\n## Elevation & Depth\nIn line with One UI, depth is communicated through **Tonal Layers** and extremely soft **Ambient Shadows**. \n- **Surface 0:** Background canvas (`#F4F7FA`).\n- **Surface 1:** Primary cards (`#FFFFFF`). These feature a subtle 1px border in `#E1E5EB` and a soft shadow (0px 4px 20px rgba(0,0,0,0.04)).\n- **Interactive Elevation:** On hover, cards should lift slightly using a more pronounced shadow (0px 8px 30px rgba(0,0,0,0.08)) to indicate interactivity.\n- **Overlays:** Modals and tooltips use a higher elevation with a 12% opacity backdrop blur to maintain context of the underlying data.\n\n## Shapes\nThe shape language is defined by oversized, friendly radii that evoke a sense of safety and modern tech.\n- **Cards:** Utilize a signature 28px corner radius (`rounded-xl` equivalent) for all primary data containers.\n- **Buttons & Chips:** Use a fully \"Pill-shaped\" 100px radius to create a distinct interactive language that contrasts with the squarer cards.\n- **Progress Indicators:** Circular elements (progress rings) should use a \"Round\" stroke cap to maintain the soft visual theme.\n\n## Components\n- **Data Cards:** The core component. Must include a `label-md` title, a `display-metrics` value, and a visualization area.\n- **Progress Rings:** Used for daily goals. Use a thick 12px track in a 10% opacity version of the metric color, with a full-saturation cap-rounded stroke for progress.\n- **Buttons:** Primary buttons are pill-shaped, using the Primary Blue. Secondary buttons are ghost-style with a 1px `#E1E5EB` border.\n- **Line Charts:** Clean, sans-serif axes. Lines should be 3px thick with a subtle gradient fill (15% opacity) beneath the stroke to give the data \"weight.\"\n- **Metric Chips:** Small, pill-shaped tags used for filtering data ranges (e.g., \"7 Days\", \"1 Month\"). Active state uses a soft tint of the Primary color with 80% opacity text.\n- **Input Fields:** Large, 56px height inputs with 12px internal padding and 12px corner radius, utilizing a subtle gray background that turns white on focus.",
+    "colorVariant": "FIDELITY",
+    "overridePrimaryColor": "#3d8bff",
+    "overrideSecondaryColor": "#2fb34a",
+    "overrideTertiaryColor": "#ff5c5c",
+    "overrideNeutralColor": "#f4f7fa",
+    "spacingScale": 2,
+    "typography": {
+      "body-lg": {
+        "fontFamily": "Inter",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "28px"
+      },
+      "body-md": {
+        "fontFamily": "Inter",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px"
+      },
+      "display-metrics": {
+        "fontFamily": "Inter",
+        "fontSize": "48px",
+        "fontWeight": "700",
+        "lineHeight": "56px",
+        "letterSpacing": "-0.02em"
+      },
+      "headline-lg": {
+        "fontFamily": "Inter",
+        "fontSize": "32px",
+        "fontWeight": "600",
+        "lineHeight": "40px",
+        "letterSpacing": "-0.01em"
+      },
+      "headline-md": {
+        "fontFamily": "Inter",
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "lineHeight": "32px"
+      },
+      "label-md": {
+        "fontFamily": "Inter",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "20px",
+        "letterSpacing": "0.01em"
+      },
+      "label-sm": {
+        "fontFamily": "Inter",
+        "fontSize": "12px",
+        "fontWeight": "600",
+        "lineHeight": "16px"
+      }
+    },
+    "spacing": {
+      "card-gap": "24px",
+      "container-padding": "40px",
+      "gutter": "24px",
+      "section-margin": "48px",
+      "unit": "8px"
+    },
+    "headlineFontFamily": "Inter",
+    "bodyFontFamily": "Inter",
+    "labelFontFamily": "Inter"
+  }
+}
